@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box{
+  width: 100%;
+  padding: 100px;
+}
+
+.title{
+  display: flex;
+  color: #000;
+}
+
+.body{
+  display: flex;
+}
+
+.green{
+  color: green;
+}
+
+.gray{
+  width: 75px;
+  color: #666;
+  border-right:5px solid 000;
+}
+
+.gray:last-child{
+  margin: 0 0 0 10;
+  border: none;
+}
+
+.link-box{
+  margin: 0;
+  display: flex;
+}
